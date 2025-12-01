@@ -6,7 +6,7 @@ Disclaimer: This repo shows my solutions for the Advent of Code challenges. The 
 
 |Day|Star 1|Used AI|Language|Star 2|Used AI|Language|
 |---|------|-------|--------|------|-------|--------|
-|1| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+|1| ✅ | ✅ | 🐍 | ✅ | ✅ | 🐍 |
 |2| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 |3| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 |4| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |

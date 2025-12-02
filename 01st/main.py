@@ -53,6 +53,6 @@ if __name__ == "__main__":
     #FILE = "test.txt"
 
     INPUT = file_reader(FILE)
-    print("Advent of Code: Day 2")
+    print("Advent of Code: Day 1")
     print("Solution for Part 1:", solver1(INPUT))
     print("Solution for Part 2:", solver2(INPUT))

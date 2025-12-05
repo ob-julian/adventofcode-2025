@@ -3,6 +3,7 @@ import time
 import importlib.util
 import pathlib
 import os
+#pylint: disable=missing-function-docstring
 
 def measure_runtime(module_name, function_name):
     module_path = pathlib.Path(os.path.join(module_name, "main.py"))
@@ -12,10 +13,10 @@ def measure_runtime(module_name, function_name):
 
     func = getattr(module, function_name)
 
-    input = module.file_reader("input.txt")
+    puzzle_input = module.file_reader("input.txt")
 
     start_time = time.time()
-    func(input)
+    func(puzzle_input)
     end_time = time.time()
 
     return end_time - start_time

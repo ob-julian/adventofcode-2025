@@ -10,7 +10,7 @@ Disclaimer: This repo shows my solutions for the Advent of Code challenges. The 
 |2| ✅ | ❌ | 🐍 | 1.7s | ✅ | ❌ | 🐍 | 2.3s |
 |3| ✅ | ❌ | 🐍 | 0.010s | ✅ | ❌ | 🐍 | 0.022s |
 |4| ✅ | ✅ | 🐍 | 0.0007s | ✅ | ❌ | 🐍| 0.033s |
-|5| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+|5| ✅ | ❌ | 🐍 | 0.0015s | ✅ | ❌ | 🐍 | 0.0s |
 |6| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 |7| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 |8| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
@@ -19,4 +19,4 @@ Disclaimer: This repo shows my solutions for the Advent of Code challenges. The 
 |11| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 |12| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 >Legend: ✅ - solved, ❌ - not solved, ❔ - unknown
->Note: The runtimes are measured on my local machine using the included [average_runtime.py](./average_runtime.py) script. It measures raw execution time without any writing to console or files.
+>Note: The runtimes are measured on my local machine using the included [average_runtime.py](./average_runtime.py) script. It measures raw execution time without any writing to console or files. Furthermore, the files are imported as modules, so any lib overhead (cough Numpy cough) and Input parsing is not included in the measurement. It only measures the raw execution time of the solver functions.

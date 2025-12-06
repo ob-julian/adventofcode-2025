@@ -1,7 +1,6 @@
 import numpy as np
 from scipy.signal import convolve2d
 import os
-import re
 #pylint: disable=missing-function-docstring
 
 def file_reader(file_path):

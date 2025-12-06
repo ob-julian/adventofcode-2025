@@ -1,5 +1,3 @@
-import numpy as np
-from scipy.signal import convolve2d
 import os
 #pylint: disable=missing-function-docstring
 

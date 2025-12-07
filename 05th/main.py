@@ -19,9 +19,6 @@ def file_reader(file_path):
         result[0].sort()
         return result
 
-def is_spoiled(fresh_list, item_id):
-    return
-
 def find_possible_fresh_list_entry(fresh_list, item_id):
     # removinf binary search worsens perfromance from 0.0015s to 0.01s =)
     return find_possible_fresh_list_entry_rec(fresh_list, item_id,0, len(fresh_list))

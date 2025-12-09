@@ -89,13 +89,21 @@ def solver2(puzzle_input):
         for j in range(i+1, len(new_points)):
             point2 = new_points[j]
             is_vaild = True
+            # we need only to check the border lines
             for y in range( min(point1[1], point2[1]), max(point1[1], point2[1]) + 1):
-                for x in range( min(point1[0], point2[0]), max(point1[0], point2[0]) + 1):
+                for x in [min(point1[0], point2[0]), max(point1[0], point2[0]) + 1]:
                     if grid[y][x] == unincorporated:
                         is_vaild = False
                         break
                 if not is_vaild:
                     break
+            if not is_vaild:
+                continue
+            for x in range( min(point1[0], point2[0]), max(point1[0], point2[0]) + 1):
+                for y in [min(point1[1], point2[1]), max(point1[1], point2[1]) + 1]:
+                    if grid[y][x] == unincorporated:
+                        is_vaild = False
+                        break
             if is_vaild:
                 size = max( (abs(points_x[point1[0]] - points_x[point2[0]]) + 1) * (abs(points_y[point1[1]] - points_y[point2[1]]) + 1), size)
     return size

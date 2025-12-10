@@ -1,5 +1,4 @@
 import os
-import copy
 #pylint: disable=missing-function-docstring
 #pylint: disable=consider-using-enumerate
 
@@ -62,8 +61,8 @@ def solver2(puzzle_input):
 
     new_points = []
     for point in puzzle_input:
-        x_index = points_x.index(point[0])
-        y_index = points_y.index(point[1])
+        x_index = binary_search(points_x, point[0])
+        y_index = binary_search(points_y, point[1])
         new_points.append( (x_index, y_index) )
 
     old_point = new_points[-1]

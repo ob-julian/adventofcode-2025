@@ -1,6 +1,5 @@
 import os
 import networkx as nx
-import matplotlib.pyplot as plt
 #pylint: disable=missing-function-docstring
 
 def file_reader(file_path):

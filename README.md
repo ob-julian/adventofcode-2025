@@ -16,7 +16,7 @@ Disclaimer: This repo shows my solutions for the Advent of Code challenges. The 
 |8| ✅ | ❌ | 🐍 | 2.67s | ✅ | ❌ | 🐍 | 2.81s |
 |9| ✅ | ❌ | 🐍 | 0.04s | ✅ | ✅ | 🐍 | 0.75s |
 |10| ✅ | ✅ | 🐍| 0.1s | ✅ | ❌ | 🐍 | 0.23s |
-|11| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
+|11| ✅ | ❌ | 🐍| 0.0s | ✅ | ✅ | 🐍 | 0.034s |
 |12| ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 >Legend: ✅ - solved, ❌ - not solved, ❔ - unknown
 >Note: The runtimes are measured on my local machine using the included [average_runtime.py](./average_runtime.py) script. It measures raw execution time without any writing to console or files. Furthermore, the files are imported as modules, so any library overhead (cough Numpy cough) and input parsing is not included in the measurement. However, any cache functions are disabled as they would throw off run-to-run variants. It only measures the raw execution time of the solver functions individually.
